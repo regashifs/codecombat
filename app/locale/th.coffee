@@ -1,36 +1,36 @@
 module.exports = nativeDescription: "ไทย", englishDescription: "Thai", translation:
   home:
-#    slogan: "Learn to Code by Playing a Game"
-#    no_ie: "CodeCombat does not run in Internet Explorer 8 or older. Sorry!" # Warning that only shows up in IE8 and older
-#    no_mobile: "CodeCombat wasn't designed for mobile devices and may not work!" # Warning that shows up on mobile devices
+    slogan: "เรียนรู้การเขียนโปรแกรมด้วยการเล่นเกม!"
+    no_ie: "CodeCombat ไม่สามารถทำงานได้บน Internet Explorer 8 หรือน้อยกว่า ขออภัยด้วย!" # Warning that only shows up in IE8 and older
+    no_mobile: "CodeCombat ไม่ได้ถูกออกแบบมาเพื่ออุปกรณ์มือถือ และอาจใช้งานไม่ได้" # Warning that shows up on mobile devices
     play: "เล่น" # The big play button that opens up the campaign view.
-#    old_browser: "Uh oh, your browser is too old to run CodeCombat. Sorry!" # Warning that shows up on really old Firefox/Chrome/Safari
-#    old_browser_suffix: "You can try anyway, but it probably won't work."
-#    ipad_browser: "Bad news: CodeCombat doesn't run on iPad in the browser. Good news: our native iPad app is awaiting Apple approval."
-#    campaign: "Campaign"
-#    for_beginners: "For Beginners"
-#    multiplayer: "Multiplayer" # Not currently shown on home page
-#    for_developers: "For Developers" # Not currently shown on home page.
-#    or_ipad: "Or download for iPad"
+    old_browser: "โอ๊ะโอ บราวเซอร์ของคุณล้าสมัยเกินกว่าจะเล่น CodeCombat ได้ เสียใจด้วย!" # Warning that shows up on really old Firefox/Chrome/Safari
+    old_browser_suffix: "คุณสามารถลองดูก็ได้ แต่อาจจะไม่สำเร็จ"
+    ipad_browser: "ข่าวร้าย: CodeCombat ไม่สามารถเล่นได้บนบราวเซอร์ของ iPad ข่าวดี: แอปของเราบน iPad กำลังรอการรับรองจาก Apple"
+    campaign: "แคมเปญ"
+    for_beginners: "สำหรับมือใหม่"
+    multiplayer: "ผู้เล่นหลายคน" # Not currently shown on home page
+    for_developers: "สำหรับผู้พัฒนา" # Not currently shown on home page.
+    or_ipad: "หรือดาวน์โหลดสำหรับ iPad"
 
   nav:
     play: "เล่น" # The top nav bar entry where players choose which levels to play
-#    community: "Community"
-    editor: "Editor"
+    community: "ชุมชน"
+    editor: "บรรณาธิการ"
     blog: "บล็อก"
     forum: "กระดานสนทนา"
-#    account: "Account"
-#    profile: "Profile"
-#    stats: "Stats"
-#    code: "Code"
+    account: "บัญชี"
+    profile: "ข้อมูลส่วนตัว"
+    stats: "สถิติ"
+    code: "โค้ด"
     admin: "ผู้ดูแลระบบ" # Only shows up when you are an admin
-    home: "Home"
+    home: "หน้าหลัก"
     contribute: "สนับสนุน"
     legal: "Legal"
     about: "เกี่ยวกับเรา"
     contact: "ติดต่อเรา"
-    twitter_follow: "Follow me!"
-#    teachers: "Teachers"
+    twitter_follow: "ติดตามเรา!"
+    teachers: "อาจารย์"
 
   modal:
     close: "ปิด"
@@ -40,172 +40,172 @@ module.exports = nativeDescription: "ไทย", englishDescription: "Thai", tra
     page_not_found: "ขออภัย ไม่พบหน้าเว็บที่คุณต้องการ"
 
   diplomat_suggestion:
-#    title: "Help translate CodeCombat!" # This shows up when a player switches to a non-English language using the language selector.
+    title: "ช่วยเราแปล CodeCombat!" # This shows up when a player switches to a non-English language using the language selector.
     sub_heading: "พวกเราต้องการทักษะภาษาของคุณ"
-    pitch_body: "We develop CodeCombat in English, but we already have players all over the world. Many of them want to play in Thai but don't speak English, so if you can speak both, please consider signing up to be a Diplomat and help translate both the CodeCombat website and all the levels into Thai."
-    missing_translations: "Until we can translate everything into Thai, you'll see English when Thai isn't available."
-#    learn_more: "Learn more about being a Diplomat"
-#    subscribe_as_diplomat: "Subscribe as a Diplomat"
+    pitch_body: "พวกเราพัฒนา CodeCombat เป็นภาษาอังกฤษ แต่เรามีผู้เล่นจากทั่วโลก หลายๆคนอยากจะเล่นเป็นภาษาไทยแต่ไม่สามารถพูดอังกฤษได้ ดังนั้นหากคุณพูดได้ทั้งสองภาษา โปรดพิจารณาลงชื่อเข้าเป็น Diplomat และช่วยแปลทั้งเว็บไซต์ CodeCombat และทุกๆด่านเป็นภาษาไทย"
+    missing_translations: "จนกว่าเราจะแปลทุกๆอย่างเป็นภาษาไทย คุณจะเห็นภาษาอังกฤษเมื่อคำนั้นยังไม่มีการแปลเป็นภาษาไทย"
+    learn_more: "เรียนรู้เพิ่มเติมเกี่ยวกับการเป็น Diplomat"
+    subscribe_as_diplomat: "ลงชื่อเป็น Diplomat"
 
 #  play:
-#    play_as: "Play As" # Ladder page
-#    spectate: "Spectate" # Ladder page
-#    players: "players" # Hover over a level on /play
-#    hours_played: "hours played" # Hover over a level on /play
-#    items: "Items" # Tooltip on item shop button from /play
-#    unlock: "Unlock" # For purchasing items and heroes
-#    confirm: "Confirm"
-#    owned: "Owned" # For items you own
-#    locked: "Locked"
-#    purchasable: "Purchasable" # For a hero you unlocked but haven't purchased
-#    available: "Available"
-#    skills_granted: "Skills Granted" # Property documentation details
-#    heroes: "Heroes" # Tooltip on hero shop button from /play
+    play_as: "เล่นเป็น" # Ladder page
+    spectate: "สังเกตการณ์" # Ladder page
+    players: "ผู้เล่น" # Hover over a level on /play
+    hours_played: "จำนวนชั่วโมงที่เล่น" # Hover over a level on /play
+    items: "ไอเท็ม" # Tooltip on item shop button from /play
+		unlock: "ปลดล็อค" # For purchasing items and heroes
+    confirm: "ยืนยัน"
+    owned: "เป็นเจ้าของแล้ว" # For items you own
+    locked: "ล็อค"
+    purchasable: "สามารถซื้อได้" # For a hero you unlocked but haven't purchased
+    available: "มีอยู่"
+    skills_granted: "สกิลที่ได้รับ" # Property documentation details
+    heroes: "ฮีโร่" # Tooltip on hero shop button from /play
 #    achievements: "Achievements" # Tooltip on achievement list button from /play
-#    account: "Account" # Tooltip on account button from /play
-#    settings: "Settings" # Tooltip on settings button from /play
-#    poll: "Poll" # Tooltip on poll button from /play
-#    next: "Next" # Go from choose hero to choose inventory before playing a level
-#    change_hero: "Change Hero" # Go back from choose inventory to choose hero
-#    choose_inventory: "Equip Items"
-#    buy_gems: "Buy Gems"
-#    subscription_required: "Subscription Required"
-#    older_campaigns: "Older Campaigns"
-#    anonymous: "Anonymous Player"
-#    level_difficulty: "Difficulty: "
-#    campaign_beginner: "Beginner Campaign"
-#    awaiting_levels_adventurer_prefix: "We release five levels per week."
-#    awaiting_levels_adventurer: "Sign up as an Adventurer"
-#    awaiting_levels_adventurer_suffix: "to be the first to play new levels."
-#    adjust_volume: "Adjust volume"
-#    choose_your_level: "Choose Your Level" # The rest of this section is the old play view at /play-old and isn't very important.
-#    adventurer_prefix: "You can jump to any level below, or discuss the levels on "
-#    adventurer_forum: "the Adventurer forum"
+    account: "บัญชี" # Tooltip on account button from /play
+    settings: "ตั้งค่า" # Tooltip on settings button from /play
+    poll: "แบบสำรวจ" # Tooltip on poll button from /play
+    next: "ต่อไป" # Go from choose hero to choose inventory before playing a level
+    change_hero: "เปลี่ยนฮีโร่" # Go back from choose inventory to choose hero
+    choose_inventory: "ใส่ไอเท็ม"
+    buy_gems: "ซื้อเพชร"
+    subscription_required: "ต้องการความเห็นชอบ"
+    older_campaigns: "แคมเปญเก่ากว่า"
+    anonymous: "ผู้เล่นนิรนาม"
+    level_difficulty: "ระดับความยาก: "
+    campaign_beginner: "แคมเปญผู้เริ่มต้น"
+    awaiting_levels_adventurer_prefix: "เราสร้างด่านใหม่ 5 ด่านต่อสัปดาห์"
+    awaiting_levels_adventurer: "ลงชื่อเป็นนักผจญภัย"
+		awaiting_levels_adventurer_suffix: "เป็นคนแรกที่ได้เล่นด่านใหม่ๆ"
+    adjust_volume: "ปรับความดัง"
+    choose_your_level: "เลือกระดับของคุณ" # The rest of this section is the old play view at /play-old and isn't very important.
+    adventurer_prefix: "คุณสามารถกระโดดข้ามไปเล่นด่านเหล่านี้ หรือติชมด่านเหล่านี้ได้"
+    adventurer_forum: "ฟอรั่มสำหรับนักผจญภัย"
 #    adventurer_suffix: "."
-#    campaign_old_beginner: "Old Beginner Campaign"
-#    campaign_old_beginner_description: "... in which you learn the wizardry of programming."
-#    campaign_dev: "Random Harder Levels"
-#    campaign_dev_description: "... in which you learn the interface while doing something a little harder."
-#    campaign_multiplayer: "Multiplayer Arenas"
-#    campaign_multiplayer_description: "... in which you code head-to-head against other players."
-#    campaign_player_created: "Player-Created"
+    campaign_old_beginner: "แคมเปญผู้เริ่มต้นเก่ากว่า"
+    campaign_old_beginner_description: "... เพื่อให้คุณได้เรียนรู้เสน่ห์ของการเขียนโปรแกรม"
+    campaign_dev: "สุ่มด่านที่ยากกว่านี้"
+    campaign_dev_description: "... เพื่อให้คุณได้เรียนรู้ส่วนต่างๆขณะที่ทำอะไรบางอย่างที่ยากขึ้นกว่าเดิมเล็กน้อย"
+    campaign_multiplayer: "สมรภูมิผู้เล่นหลายคน"
+    campaign_multiplayer_description: "... เพื่อให้คุณได้เขียนโปรแกรมแบบตัวต่อตัวแข่งกับผู้เล่นคนอื่น"
+    campaign_player_created: "สร้างผู้เล่นแล้ว"
 #    campaign_player_created_description: "... in which you battle against the creativity of your fellow <a href=\"/contribute/artisan\">Artisan Wizards</a>."
-#    campaign_classic_algorithms: "Classic Algorithms"
-#    campaign_classic_algorithms_description: "... in which you learn the most popular algorithms in Computer Science."
+    campaign_classic_algorithms: "ขั้นตอนวิธีแบบคลาสสิค"
+    campaign_classic_algorithms_description: "... เพื่อให้คุณได้เรียนรู้ขั้นตอนวิธีที่มีชื่อเสียงในวิชาวิทยาการคอมพิวเตอร์"
 
 #  share_progress_modal:
-#    blurb: "You’re making great progress! Tell your parent how much you've learned with CodeCombat."
-#    email_invalid: "Email address invalid."
-#    form_blurb: "Enter your parent's email below and we’ll show them!"
-#    form_label: "Email Address"
-#    placeholder: "email address"
-#    title: "Excellent Work, Apprentice"
+    blurb: "คุณทำได้ดีมาก บอกผู้ปกครองของคุณว่าคุณได้เรียนรู้อะไรบ้างจาก CodeCombat"
+    email_invalid: "อีเมลแอดเดรส ไม่ถูกต้อง"
+    form_blurb: "กรอกอีเมลแอดเดรสของผู้ปกครองแล้วเราจะบอกให้พวกเขาทราบ"
+    form_label: "อีเมลแอดเดรส"
+    placeholder: "อีเมลแอดเดรส"
+    title: "ทำได้ดีมาก ผู้ฝึกหัด"
 
   login:
     sign_up: "ลงทะเบียนใหม่"
     log_in: "ลงชื่อเข้าใช้"
     logging_in: "กำลังเข้าสู่ระบบ"
     log_out: "ลงชื่อออก"
-#    forgot_password: "Forgot your password?"
-#    authenticate_gplus: "Authenticate G+"
-#    load_profile: "Load G+ Profile"
-#    finishing: "Finishing"
-#    sign_in_with_facebook: "Sign in with Facebook"
-#    sign_in_with_gplus: "Sign in with G+"
-#    signup_switch: "Want to create an account?"
+    forgot_password: "ลืมรหัสผ่านหรือ?"
+    authenticate_gplus: "ยืนยันตัวตน G+"
+		load_profile: "โหลดข้อมูลส่วนตัว G+"
+		finishing: "กำลังดำเนินการ"
+    sign_in_with_facebook: "ลงชื่อเข้าใช้ด้วย Facebook"
+    sign_in_with_gplus: "ลงชื่อเข้าใช้ด้วย G+"
+    signup_switch: "ต้องการสร้างบัญชีใหม่?"
 
   signup:
     email_announcements: "รับข่าวสารผ่านทางอีเมลล์"
     creating: "กำลังสร้างบัญชีใหม่..."
     sign_up: "สมัคร"
     log_in: "เข้าสู่ระบบด้วยรหัสผ่าน"
-#    social_signup: "Or, you can sign up through Facebook or G+:"
-#    required: "You need to log in before you can go that way."
-#    login_switch: "Already have an account?"
+    social_signup: "หรือ คุณสามารถลงชื่อเข้าใช้ด้วย Facebook หรือ G+:"
+    required: "คุณต้องลงชื่อเข้าใช้เสียก่อนจะทำสิ่งนั้น"
+    login_switch: "มีบัญชีแล้วหรือ?"
 
 #  recover:
-#    recover_account_title: "Recover Account"
-#    send_password: "Send Recovery Password"
-#    recovery_sent: "Recovery email sent."
+    recover_account_title: "กู้คืนบัญชี"
+    send_password: "ส่งรหัสผ่านสำหรับกู้คืน"
+    recovery_sent: "อีเมลกู้คืนได้ส่งแล้ว"
 
 #  items:
-#    primary: "Primary"
-#    secondary: "Secondary"
-#    armor: "Armor"
-#    accessories: "Accessories"
-#    misc: "Misc"
-#    books: "Books"
+    primary: "หลัก"
+    secondary: "รอง"
+    armor: "เกราะ"
+    accessories: "อุปกรณ์"
+    misc: "อื่นๆ"
+    books: "หนังสือ"
 
   common:
-#    back: "Back" # When used as an action verb, like "Navigate backward"
-#    continue: "Continue" # When used as an action verb, like "Continue forward"
+    back: "กลับ" # When used as an action verb, like "Navigate backward"
+    continue: "ดำเนินการต่อ" # When used as an action verb, like "Continue forward"
     loading: "รอสักครู่..."
     saving: "กำลังบันทึก..."
-#    sending: "Sending..."
-#    send: "Send"
+    sending: "กำลังส่ง..."
+    send: "ส่ง"
     cancel: "ยกเลิก"
     save: "บันทึก"
-#    publish: "Publish"
-#    create: "Create"
-#    manual: "Manual"
+    publish: "เผยแพร่"
+    create: "สร้าง"
+    manual: "คู่มือ"
 #    fork: "Fork"
     play: "เล่น" # When used as an action verb, like "Play next level"
-#    retry: "Retry"
+    retry: "ลองใหม่"
 #    actions: "Actions"
-#    info: "Info"
-#    help: "Help"
+    info: "ข้อมูล"
+    help: "ช่วยเหลือ"
 #    watch: "Watch"
 #    unwatch: "Unwatch"
-#    submit_patch: "Submit Patch"
-#    submit_changes: "Submit Changes"
+    submit_patch: "ยืนยันแพทซ์"
+    submit_changes: "ยืนยันการเปลี่ยนแปลง"
 
 #  general:
-#    and: "and"
-#    name: "Name"
-#    date: "Date"
+    and: "และ"
+    name: "ชื่อ"
+    date: "วันที่"
 #    body: "Body"
-#    version: "Version"
-#    pending: "Pending"
-#    accepted: "Accepted"
-#    rejected: "Rejected"
-#    withdrawn: "Withdrawn"
-#    submitter: "Submitter"
-#    submitted: "Submitted"
-#    commit_msg: "Commit Message"
-#    review: "Review"
-#    version_history: "Version History"
-#    version_history_for: "Version History for: "
-#    select_changes: "Select two changes below to see the difference."
-#    undo_prefix: "Undo"
-#    undo_shortcut: "(Ctrl+Z)"
-#    redo_prefix: "Redo"
-#    redo_shortcut: "(Ctrl+Shift+Z)"
-#    play_preview: "Play preview of current level"
-#    result: "Result"
-#    results: "Results"
-#    description: "Description"
-#    or: "or"
-#    subject: "Subject"
-#    email: "Email"
-#    password: "Password"
-#    message: "Message"
-#    code: "Code"
-#    ladder: "Ladder"
-#    when: "When"
-#    opponent: "Opponent"
-#    rank: "Rank"
-#    score: "Score"
-#    win: "Win"
-#    loss: "Loss"
-#    tie: "Tie"
-#    easy: "Easy"
-#    medium: "Medium"
-#    hard: "Hard"
-#    player: "Player"
-#    player_level: "Level" # Like player level 5, not like level: Dungeons of Kithgard
-#    warrior: "Warrior"
-#    ranger: "Ranger"
-#    wizard: "Wizard"
+    version: "เวอร์ชั่น"
+    pending: "รอดำเนินการ"
+    accepted: "ยอมรับแล้ว"
+    rejected: "ถูกปฏิเสธ"
+    withdrawn: "ถอดถอน"
+    submitter: "ผู้ยืนยัน"
+    submitted: "ยืนยันแล้ว"
+		commit_msg: "ยืนยันข้อความ"
+    review: "ทบทวน"
+    version_history: "ประวัติเวอร์ชั่น"
+    version_history_for: "ประวัติเวอร์ชั่นสำหรับ: "
+    select_changes: "เลือกความเปลี่ยนแปลงสองอันเพื่อดูความแตกต่าง"
+    undo_prefix: "เลิกทำ"
+    undo_shortcut: "(Ctrl+Z)"
+    redo_prefix: "ทำซ้ำ"
+    redo_shortcut: "(Ctrl+Shift+Z)"
+    play_preview: "ดูพรีวิวสำหรับด่านปัจจุบัน"
+    result: "ผลลัพธ์"
+    results: "ผลลัพธ์"
+    description: "คำอธิบาย"
+    or: "หรือ"
+    subject: "หัวข้อ"
+    email: "อีเมล"
+    password: "รหัสผ่าน"
+    message: "ข้อความ"
+    code: "โค้ด"
+    ladder: "Ladder"
+    when: "เมื่อ"
+    opponent: "ศัตรู"
+    rank: "อันดับ"
+    score: "คะแนน"
+    win: "ชนะ"
+    loss: "แพ้"
+    tie: "เสมอ"
+    easy: "ง่าย"
+    medium: "ปานกลาง"
+    hard: "ยาก"
+    player: "ผู้เล่น"
+    player_level: "ด่าน" # Like player level 5, not like level: Dungeons of Kithgard
+    warrior: "นักรบ"
+    ranger: "เรนเจอร์"
+    wizard: "พ่อมด"
 
   units:
     second: "วินาที"
@@ -226,50 +226,50 @@ module.exports = nativeDescription: "ไทย", englishDescription: "Thai", tra
   play_level:
     done: "เสร็จสิ้น"
     home: "หน้าแรก" # Not used any more, will be removed soon.
-#    level: "Level" # Like "Level: Dungeons of Kithgard"
-#    skip: "Skip"
-#    game_menu: "Game Menu"
+    level: "ด่าน" # Like "Level: Dungeons of Kithgard"
+    skip: "ข้าม"
+    game_menu: "เมนูเกม"
     guide: "คู่มือ"
     restart: "เริ่มเล่นใหม่"
     goals: "เป้าหมาย"
-#    goal: "Goal"
-#    running: "Running..."
-#    success: "Success!"
-#    incomplete: "Incomplete"
-#    timed_out: "Ran out of time"
-#    failing: "Failing"
-#    action_timeline: "Action Timeline"
-#    click_to_select: "Click on a unit to select it."
-#    control_bar_multiplayer: "Multiplayer"
-#    control_bar_join_game: "Join Game"
-#    reload: "Reload"
-#    reload_title: "Reload All Code?"
-#    reload_really: "Are you sure you want to reload this level back to the beginning?"
-#    reload_confirm: "Reload All"
-#    victory: "Victory"
+    goal: "เป้าหมาย"
+    running: "กำลังดำเนินการ..."
+    success: "สำเร็จแล้ว!"
+    incomplete: "ไม่สมบูรณ์"
+    timed_out: "หมดเวลา"
+    failing: "ล้มเหลว"
+    action_timeline: "เส้นเวลาการกระทำ"
+    click_to_select: "คลิกบนหน่วยเพื่อเลือก"
+    control_bar_multiplayer: "ผู้เล่นหลายคน"
+    control_bar_join_game: "เข้าร่วมเกม"
+    reload: "โหลดใหม่"
+    reload_title: "โหลดโค้ดทั้งหมดใหม่?"
+    reload_really: "คุณแน่ใจหรือที่จะโหลดด่านใหม่ตั้งแต่เริ่ม?"
+    reload_confirm: "โหลดใหม่ทั้งหมด"
+    victory: "ชัยชนะ"
 #    victory_title_prefix: ""
     victory_title_suffix: "เสร็จสิ้น"
     victory_sign_up: "สมัครสมาชิกเพื่ออัพเดท"
-#    victory_sign_up_poke: "Want to save your code? Create a free account!"
-#    victory_rate_the_level: "Rate the level: " # Only in old-style levels.
+    victory_sign_up_poke: "ต้องการบันทึกโค้ดของคุณหรือ? สร้างบัญชีใหม่ฟรี!"
+    victory_rate_the_level: "ให้คะแนนด่านนี้: " # Only in old-style levels.
 #    victory_return_to_ladder: "Return to Ladder"
-#    victory_play_continue: "Continue"
-#    victory_saving_progress: "Saving Progress"
+    victory_play_continue: "ดำเนินการต่อ"
+    victory_saving_progress: "บันทึกความคืบหน้า"
     victory_go_home: "ไปหน้าแรก" # Only in old-style levels.
-#    victory_review: "Tell us more!" # Only in old-style levels.
+    victory_review: "บอกเราเพิ่มเติม!" # Only in old-style levels.
     victory_hour_of_code_done: "เสร็จหรือยัง?"
-#    victory_hour_of_code_done_yes: "Yes, I'm finished with my Hour of Code™!"
-#    victory_experience_gained: "XP Gained"
-#    victory_gems_gained: "Gems Gained"
-#    victory_become_a_viking: "Become a Viking"
-#    guide_title: "Guide"
+    victory_hour_of_code_done_yes: "ใช่ ฉันทำ Hour of Code™ ของฉันเสร็จแล้ว!"
+    victory_experience_gained: "XP ที่ได้รับ"
+    victory_gems_gained: "เพชรที่ได้รับ"
+    victory_become_a_viking: "ร่วมเป็นไวกิ้ง"
+    guide_title: "คู่มือ"
 #    tome_minion_spells: "Your Minions' Spells" # Only in old-style levels.
 #    tome_read_only_spells: "Read-Only Spells" # Only in old-style levels.
 #    tome_other_units: "Other Units" # Only in old-style levels.
-#    tome_cast_button_run: "Run"
-#    tome_cast_button_running: "Running"
-#    tome_cast_button_ran: "Ran"
-#    tome_submit_button: "Submit"
+    tome_cast_button_run: "เล่น"
+    tome_cast_button_running: "กำลังเล่น"
+    tome_cast_button_ran: "เล่น"
+    tome_submit_button: "ยืนยัน"
 #    tome_reload_method: "Reload original code for this method" # Title text for individual method reload button.
 #    tome_select_method: "Select a Method"
 #    tome_see_all_methods: "See all methods you can edit" # Title text for method list selector (shown when there are multiple programmable methdos).
